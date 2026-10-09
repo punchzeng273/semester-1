@@ -1,3 +1,8 @@
 # About Me
-my name is zzz
-Using the resources linked in examples, have a go at making a quick about you page using Markdown.
+my name is weijie Zeng.
+I study Computer Science at university of Leeds.
+
+## My interest
+- Watching Football Game
+- Play stock
+I want to understand how to type **programmig**
