@@ -19,7 +19,7 @@ annual_saving = month_saving * 12
 
 # Calculate the total amount of money including interest (0.8% of the final annual amount) they will have saved in a year.
 # print this out in the format £X.XX (to two decimal places).
-interest_saving = month saving * 0.008
+interest_saving = month_saving * 0.008
 total_amount = month_saving + interest_saving
 print(f"Annual savings: £{annual_saving}")
 print(f"Total savings including interest: £{total_amount:.2f}")
