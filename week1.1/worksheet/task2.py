@@ -15,7 +15,7 @@ except:
     print("that should be an integer")
 # Calculate the total amount of money they will have saved by the end of the year (amount per month multiplied by 12).
 # print this out for the user with a suitable message.
-annual_saving = month saving * 12
+annual_saving = month_saving * 12
 
 # Calculate the total amount of money including interest (0.8% of the final annual amount) they will have saved in a year.
 # print this out in the format £X.XX (to two decimal places).
