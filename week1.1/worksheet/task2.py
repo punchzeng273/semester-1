@@ -12,11 +12,11 @@ print(f"Welcome to LeedsBank's savings calculator {name}!")
 user_input = input("Enter your monthly savings amount: ")
 try:
     monthly = int(user_input.strip())
-    annual_saving = month_saving * 12
-    total = yearly * 1.008
-    print(f"You will save £{yearly} every year.")
+    annual_saving = monthly * 12
+    total = annual_saving * 1.008
+    print(f"You will save £{annual_saving} every year.")
 # Calculate the total amount of money including interest (0.8% of the final annual amount) they will have saved in a year.
 # print this out in the format £X.XX (to two decimal places).
-print(f"With interest, you will save £{total:.2f} per year.")
+    print(f"With interest, you will save £{total:.2f} per year.")
 except ValueError:
     print("Invalid amount")
